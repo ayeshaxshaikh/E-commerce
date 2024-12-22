@@ -55,6 +55,14 @@ const AddProduct = () => {
         data.success ? alert('Product Added') : alert('Failed')
       })
     }
+    setProductDetails({
+      name: '',
+      image: '',
+      category: 'women',
+      new_price: '',
+      old_price: '',
+  });
+  setImage(false);
   }
 
   return (
